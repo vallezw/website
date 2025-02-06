@@ -83,7 +83,7 @@ export default function Home() {
               key="mannheim"
               name="ear-training.org"
               url="https://www.ear-training.org/"
-              description="melody, rhyhtm, polyphonic harmony dictations."
+              description="melody, rhythm, polyphonic harmony dictations."
             />
 
             <ContentLink
