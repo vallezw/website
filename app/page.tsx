@@ -39,7 +39,7 @@ export default function Home() {
           About me
         </h2>
         <p>
-          Currently I&apos;m a working student at <Link href="quantco.com"  className={cn(
+          Currently I&apos;m a working student at <Link href="https://quantco.com"  className={cn(
           "underline underline-offset-2 decoration-foreground/40 font-medium hover:opacity-70 transitions-all"
         )}>QuantCo</Link> and aspiring to study Music Education at HMTM Munich.
         </p>
