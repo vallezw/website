@@ -72,12 +72,7 @@ export default function Home() {
         <ul className="space-y-2 w-full">
           
           
-            <ContentLink
-              key="chords"
-              name="chord recognition"
-              url={`/ear-training/chords`}
-              description="Some exercises for chord recognition."
-            />
+            
                  
             <ContentLink
               key="mannheim"
@@ -91,6 +86,12 @@ export default function Home() {
               name="OMA"
               url="https://openmusic.academy/"
               description="general resources for music theory and more."
+            />
+            <ContentLink
+              key="chords"
+              name="chord recognition"
+              url="https://tonedear.com/ear-training/chord-identification"
+              description="Some exercises for chord recognition."
             />
             
             <ContentLink
