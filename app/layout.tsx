@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: "Valentin Zwerschke",
   description: "Musician & Developer",
   metadataBase: new URL("https://vallezw.dev"),
+  icons: '/z-logo.png',
   openGraph: {
     images: [
       {
