@@ -67,38 +67,29 @@ export default function Home() {
       {/* Ear Training */}
       <div className="space-y-2 w-full animate-enter delay-125">
         <h2 className={cn(newsreader.className, "text-secondary-foreground")}>
-          Ear Training Resources
+          Work Experience
         </h2>
-        <ul className="space-y-2 w-full">
-          
-          
-            
-                 
-            <ContentLink
-              key="mannheim"
-              name="ear-training.org"
-              url="https://www.ear-training.org/"
-              description="melody, rhythm, polyphonic harmony dictations."
-            />
-
-            <ContentLink
-              key="muc"
-              name="OMA"
-              url="https://openmusic.academy/"
-              description="general resources for music theory and more."
+        <ul className="space-y-2 w-full">     
+          <ContentLink
+              key="sheetable"
+              name="SheetAble"
+              url="https://github.com/SheetAble/SheetAble"
+              description="founder"
+              year="2025-now"
             />
             <ContentLink
-              key="chords"
-              name="chord recognition"
-              url="https://tonedear.com/ear-training/chord-identification"
-              description="Some exercises for chord recognition."
+              key="quantco"
+              name="QuantCo"
+              url="https://quantco.com"
+              description="fullstack engineer - working student"
+              year="2023-now"
             />
-            
             <ContentLink
-              key="ear"
-              name="Functional Ear Trainer"
-              url="https://apps.apple.com/de/app/functional-ear-trainer/id1088761926"
-              description="Solfege and relative pitch training."
+              key="quanos"
+              name="Quanos"
+              url="https://quanos.com/"
+              description="one month SWE Intern"
+              year="2022"
             />
         </ul>
       </div>
