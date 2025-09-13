@@ -1,7 +1,9 @@
 "use client";
 
 const qoutes = [
-  "Less is more.",
+  "Sometimes you are the dog, sometimes the tree.",
+  "Mühsam ernährt sich das Eichhörnchen.",
+  "Da beißt die Maus keinen Faden ab."
 ];
 
 export default function Quote() {
