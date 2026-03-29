@@ -27,7 +27,7 @@ const PROJECTS = [
     url: "https://github.com/vallezw/The-Social-Network",
     description: "social network clone.",
     year: "2020",
-  }
+  },
 ];
 
 export default function Home() {
@@ -39,9 +39,16 @@ export default function Home() {
           About me
         </h2>
         <p>
-          Currently I&apos;m a working student at <Link href="https://quantco.com"  className={cn(
-          "underline underline-offset-2 decoration-foreground/40 font-medium hover:opacity-70 transitions-all"
-        )}>QuantCo</Link>, studying Mathematics B.Sc (LMU) and Music Education (HMTM).
+          Currently I&apos;m a working student at{" "}
+          <Link
+            href="https://www.linkedin.com/company/forml-eu"
+            className={cn(
+              "underline underline-offset-2 decoration-foreground/40 font-medium hover:opacity-70 transitions-all",
+            )}
+          >
+            forml
+          </Link>
+          , studying Mathematics B.Sc (LMU) and Music Education (HMTM).
         </p>
       </div>
 
@@ -69,28 +76,35 @@ export default function Home() {
         <h2 className={cn(newsreader.className, "text-secondary-foreground")}>
           Work Experience
         </h2>
-        <ul className="space-y-2 w-full">     
+        <ul className="space-y-2 w-full">
           <ContentLink
-              key="sheetable"
-              name="SheetAble"
-              url="https://github.com/SheetAble/SheetAble"
-              description="founder"
-              year="2025-now"
-            />
-            <ContentLink
-              key="quantco"
-              name="QuantCo"
-              url="https://quantco.com"
-              description="fullstack engineer - working student"
-              year="2023-now"
-            />
-            <ContentLink
-              key="quanos"
-              name="Quanos"
-              url="https://quanos.com/"
-              description="one month SWE Intern"
-              year="2022"
-            />
+            key="forml"
+            name="forml"
+            url="https://www.linkedin.com/company/forml-eu"
+            description="product engineer - working student"
+            year="2026-now"
+          />
+          <ContentLink
+            key="sheetable"
+            name="SheetAble"
+            url="https://github.com/SheetAble/SheetAble"
+            description="founder"
+            year="2025-now"
+          />
+          <ContentLink
+            key="quantco"
+            name="QuantCo"
+            url="https://quantco.com"
+            description="fullstack engineer - working student"
+            year="2023-2026"
+          />
+          <ContentLink
+            key="quanos"
+            name="Quanos"
+            url="https://quanos.com/"
+            description="one month SWE Intern"
+            year="2022"
+          />
         </ul>
       </div>
 

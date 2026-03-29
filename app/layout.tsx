@@ -13,8 +13,8 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Valentin Zwerschke",
   description: "Musician & Developer",
-  metadataBase: new URL("https://vallezw.dev"),
-  icons: '/z-logo.png',
+  metadataBase: new URL("https://vallezw.com"),
+  icons: "/z-logo.png",
   openGraph: {
     images: [
       {
@@ -57,7 +57,7 @@ export default function RootLayout({
                   <span
                     className={cn(
                       newsreader.className,
-                      "text-secondary-foreground "
+                      "text-secondary-foreground ",
                     )}
                   >
                     Musician & Developer
